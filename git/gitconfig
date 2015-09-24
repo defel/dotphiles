@@ -8,10 +8,10 @@
 #
 
 # Global Config
+
 [user]
-    #name = "**Your Name**"
-    #email = "**Your Email**"
-    #signingkey = **Your GPG ID**
+    name = Alexander Weiher
+    email = alexander.weiher@idealo.de
 
 [branch "master"]
     remote = origin
@@ -145,4 +145,3 @@
 
 [url "git@github.com:"]
     insteadof = github:
-

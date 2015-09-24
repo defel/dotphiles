@@ -18,3 +18,29 @@ source "$DOTZSH/env.zsh"
 
 # Customize to your needs...
 
+# m3 / maven
+export M3_HOME=/opt/maven/maven_home
+export M3=$M3_HOME/bin
+
+# java
+export JAVA_HOME=/usr/lib/jvm/jdk-8-oracle-x64
+
+# path
+export PATH=$M3:$PATH
+export PATH=$JAVA_HOME/bin:$PATH
+export PATH=$PATH:$HOME/bin
+
+# Path to your oh-my-zsh installation.
+export ZSH=/home/alexander.weiher/.oh-my-zsh
+
+
+## oh my zsh
+plugins=(git command-not-found common-aliases docker httpie jira nvm autoenv)
+source $ZSH/oh-my-zsh.sh
+
+# liquidprompt
+source ~/.zsh/liquidprompt/liquidprompt
+
+# nvm
+cat /home/alexander.weiher/tmp/gcalcli_agenda.txt
+nvm use v0.12.7

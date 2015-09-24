@@ -1,0 +1,10 @@
+#!/bin/sh
+ 
+FG='#aaaaaa'
+BG='#1a1a1a'
+FONT='-*-terminus-*-r-normal-*-*-120-*-*-*-*-iso8859-*'
+#conky | dzen2 -e - -h '16' -w '600' -ta r -fg $FG -bg $BG -fn $FONT &
+
+
+exec conky -d | dzen2 -fg "#666666" -bg "#333333" -ta left -w 607 -x 188 -y 750 &
+exit 0

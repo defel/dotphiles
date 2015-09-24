@@ -13,9 +13,9 @@ set folder=$HOME/.mail/
 set spoolfile="+Gmail/INBOX"
 
 set reverse_name=yes
-set from=**Your Email**
-set realname="**Your Name**"
-alternates **Your Work Email**
+set from=alexander.weiher@idealo.de
+set realname="Alexander Weiher"
+alternates alexander.weiher@idealo.de
 
 source $HOME/.mutt/colors/solarized
 
@@ -26,4 +26,3 @@ source ~/.mutt/mailboxes.offlineimap
 # account specific sources
 folder-hook Gmail/* source ~/.mutt/gmail
 folder-hook Work/* source ~/.mutt/work
-
